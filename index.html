@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Bhangra Beats Studio</title>
+</head>
+<body>
+
+<!-- ================= NAV ================= -->
+<nav>
+  <div class="nav_header">
+    <div class="nav_logo">
+      <img src="assets/logo-white.png" />
+    </div>
+
+    <div class="nav_menu_btn" id="menu-btn">
+      <i class="ri-menu-4-line"></i>
+    </div>
+  </div>
+
+  <ul class="nav_links" id="nav-links">
+    <li><a href="#home">HOME</a></li>
+    <li><a href="#about">ABOUT</a></li>
+    <li><a href="#services">SERVICES</a></li>
+    <li><a href="#gallery">GALLERY</a></li>
+    <li><a href="#contact">CONTACT</a></li>
+  </ul>
+</nav>
+
+<!-- ================= HERO ================= -->
+<header class="hero" id="home">
+  <div class="hero_content">
+    <h1>Feel The <span>Energy</span> of Bhangra</h1>
+    <p>Experience vibrant Punjabi culture, power, and celebration.</p>
+    <button class="btn" id="openForm">Join Our Classes</button>
+  </div>
+
+  <div class="hero_image">
+    <img src="assets/bhangra.png" alt="Bhangra">
+  </div>
+</header>
+
+<!-- ================= ABOUT ================= -->
+<section class="section about" id="about">
+  <h2>About Us</h2>
+  <p>
+    We teach authentic Punjabi Bhangra with passion and energy.
+    Our mission is to spread culture and fitness worldwide.
+  </p>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="section services" id="services">
+  <h2>Our Services</h2>
+  <div class="service_grid">
+
+    <div class="card">
+      <i class="ri-group-line"></i>
+      <h3>Group Classes</h3>
+      <p>Energetic sessions for beginners & professionals.</p>
+    </div>
+
+    <div class="card">
+      <i class="ri-music-2-line"></i>
+      <h3>Wedding Choreography</h3>
+      <p>Make your wedding unforgettable.</p>
+    </div>
+
+    <div class="card">
+      <i class="ri-star-smile-line"></i>
+      <h3>Kids Training</h3>
+      <p>Fun cultural dance programs for kids.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= GALLERY ================= -->
+<section class="section gallery" id="gallery">
+  <h2>Gallery</h2>
+  <div class="gallery_grid">
+    <img src="assets/bhangra.png">
+    <img src="assets/bhangra.png">
+    <img src="assets/bhangra.png">
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="section contact" id="contact">
+  <h2>Contact</h2>
+  <p>Email: info@bhangrabeats.com</p>
+  <p>Phone: +1 234 567 890</p>
+</section>
+
+<!-- ================= POPUP FORM ================= -->
+<div class="form_modal" id="formModal">
+  <div class="form_container">
+    <span class="close_btn" id="closeForm">&times;</span>
+    <h2>Register Now</h2>
+
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="tel" placeholder="Phone Number" required>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
